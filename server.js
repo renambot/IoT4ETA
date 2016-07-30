@@ -1,14 +1,25 @@
 //////// Customize this data! /////////
 //
-var startpoint = "Microsoft, 10900 Stonelake Blvd. Austin, TX 78759"; // Commute starting address
-var endpoint = "Pinballz, 8940 Research Blvd Ste 100, Austin, TX 78758"; // Commute ending address
-var trafficlowthreshold = 3; // If traffic adds 3 min. or less to commute, traffic is "low."
-var traffichighthreshold = 10; // If traffic adds 10 min. or more to commute, traffic is "high." If traffic adds between 3 and 10 minutes to commute, traffic is "medium."
-var refreshrate = 5; // Traffic data is updated every 5 minutes.
-var myparticleemail = "StoreThisLocallyOrInAzure" // The email address you use to log in to build.particle.io.
-var myparticlepw = "StoreThisLocallyOrInAzure" // The password you use to log in to build.particle.io.
-var myparticletoken = "StoreThisLocallyOrInAzure" // Photon token (build.particle.io > Settings)
-var mybingmapskey = "StoreThisLocallyOrInAzure" // Bing Maps API Key (bingmapsportal.com)
+var startpoint = "222 W. Merchandise Mart Plaza, Chicago, IL 60654"; // Commute starting address
+var endpoint   = "1060 W Addison St, Chicago, IL 60613"; // Commute ending address
+
+var trafficlowthreshold  = 3;
+// If traffic adds 3 min. or less to commute, traffic is "low."
+
+var traffichighthreshold = 10;
+// If traffic adds 10 min. or more to commute, traffic is "high." If traffic adds between 3 and 10 minutes to commute, traffic is "medium."
+
+var refreshrate = 5;
+// Traffic data is updated every 5 minutes.
+
+
+var myparticleemail = "renambot@gmail.com" // The email address you use to log in to build.particle.io.
+var myparticlepw    = "qv1bn1q." // The password you use to log in to build.particle.io.
+var myparticletoken = "1b67fbedf478e95d045fa7cf08bd9c78b182ab6b" // Photon token (build.particle.io > Settings)
+var mybingmapskey   = "AlXclq49qm7hT-8oaRgS3xuE3RSF8lHoLLyFi5IDAt4NozH956yg06_F6hK-9lDH" // Bing Maps API Key (bingmapsportal.com)
+
+
+
 //
 ///////////////////////////////////////
 
